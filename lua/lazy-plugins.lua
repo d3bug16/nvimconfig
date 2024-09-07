@@ -6,7 +6,7 @@ require('lazy').setup({
   -- autosave
   { "EdenEast/nightfox.nvim" },
   { 'projekt0n/github-nvim-theme' },
-  { "ellisonleao/gruvbox.nvim",   priority = 1000,  config = true, opts = ... },
+  { "ellisonleao/gruvbox.nvim",   priority = 1000, config = true, opts = ... },
   { 'mhartington/oceanic-next' },
   { 'mellow-theme/mellow.nvim' },
   {
@@ -46,16 +46,18 @@ require('lazy').setup({
       }
     },
   },
+  { "catppuccin/nvim",           name = "catppuccin", priority = 1000 },
+  { "cpea2506/one_monokai.nvim", },
   {
     "craftzdog/solarized-osaka.nvim",
     lazy = false,
     priority = 1000,
     opts = {
-      style="moon",
-      transparent=true,
-      styles={
-        sidebars="transparent",
-        floats="transparent"
+      style = "moon",
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent"
       }
     },
   },

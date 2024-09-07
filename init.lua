@@ -5,6 +5,8 @@ require("plugins-config")
 require("keymaps")
 
 vim.cmd [[colorscheme solarized-osaka]]
+-- vim.cmd [[colorscheme one_monokai]]
+-- vim.cmd [[colorscheme catppuccin]]
 -- vim.cmd [[colorscheme nightfox]]
 -- vim.cmd('colorscheme github_dark')
 -- vim.cmd('colorscheme OceanicNext')
